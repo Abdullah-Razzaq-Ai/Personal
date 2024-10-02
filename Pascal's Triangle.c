@@ -16,7 +16,7 @@ int main() {
             int N=i;
             int R=j;
             int X=i-j;
-            int fN=1,fR=1,fX=1;
+            long long int fN=1,fR=1,fX=1;
             while(N!=0){
                 fN*=N;
                 N-=1;
